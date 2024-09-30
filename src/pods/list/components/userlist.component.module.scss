@@ -1,0 +1,36 @@
+.member-element{
+	display: flex;
+	align-items: center;
+	gap: 1em;
+	padding: 1em;
+	width: 60vw;
+
+	@media (max-width: $breakpoint-md) {
+		width: 75vw;
+	}
+
+	@media (max-width: $breakpoint-sm) {
+		width: 90vw;
+	}
+
+	.member-img{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+
+	.member-info{
+		display: flex;
+		flex-direction: column;
+
+		.name{
+			font-weight: bold;
+		}
+
+		.id{
+			color: #888;
+			font-weight: 400;
+		}
+	}
+
+}

@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1em;
+
+	.search-bar{
+		width: 30vw;
+
+		@media (max-width: $breakpoint-md) {
+			width: 50vw;
+		}
+
+		@media (max-width: $breakpoint-sm) {
+			width: 80vw;
+		}
+	}
+
+	.error{
+		margin: 1em;
+	}
+
+}

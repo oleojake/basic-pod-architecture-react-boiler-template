@@ -67,7 +67,6 @@ pods/
 	├── my-pod.container.tsx
 	├── my-pod.component.tsx
 	├── my-pod.vm.ts
-	├── index.ts
 	├── components/
 	├── └── component.tsx
 	├── └── component.module.scss
@@ -76,8 +75,7 @@ pods/
 		├── api-model.ts
 		├── api-model.ts
 		├── api.mapper.ts
-		├── api.repository.ts
-		└── index.ts
+		└── api.repository.ts
 ```
 
 - Each **pod** represents a self-contained functionality or feature of the application, such as a page or a section of a page. Typically, the mapping between a pod and a page is one-to-one, but there are exceptions, such as dashboards that may consume multiple pods, or reusable pods like a login component used in different areas of the app.

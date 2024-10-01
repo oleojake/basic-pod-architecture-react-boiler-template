@@ -69,8 +69,8 @@ pods/
 	├── my-pod.vm.ts
 	├── index.ts
 	├── components/
-	|   └── component.tsx
-	|   └── component.module.scss
+	├── └── component.tsx
+	├── └── component.module.scss
 	└── api/
 		└── api.ts
 		├── api-model.ts

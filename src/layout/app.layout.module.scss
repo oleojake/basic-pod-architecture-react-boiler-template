@@ -1,38 +1,39 @@
 .header-container {
-	padding-bottom: 1em;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 2em;
+  padding-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
 
-	.icon {
+  .icon {
     font-size: 2em;
-		margin-left: 1em;
+    margin-left: 1em;
 
-		@media (max-width: $breakpoint-sm) {
-			display: none;
-		}
-	}
+    @media (max-width: $breakpoint-sm) {
+      display: none;
+    }
+  }
 
-	.title {
-		font-weight: bold;
-		text-align: center;
-		@media (max-width: $breakpoint-sm) {
-			font-size: 2em;
-		}
-	}
+  .title {
+    font-weight: bold;
+    text-align: center;
+
+    @media (max-width: $breakpoint-sm) {
+      font-size: 2em;
+    }
+  }
 }
 
 .app-container {
-	background-color: #FBFBFB;
-	padding: 2em 0em;
-	min-height: 100vh;
+  background-color: #FBFBFB;
+  padding: 2em 0;
+  min-height: 100vh;
 }
 
 .body-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	gap: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
 }

@@ -44,11 +44,11 @@ The project follows a **pod architecture** to keep the code modular and scalable
 
 ```bash
 src/
-├── global-css/
 ├── layout/
-├── pods/
 ├── router/
-└── scenes/
+├── scenes/
+├── global-css/
+└── pods/
 ```
 
 - **layout**: Contains the main layout components used across the application.
@@ -73,7 +73,6 @@ pods/
 	└── api/
 		└── api.ts
 		├── api-model.ts
-		├── api-model.ts
 		├── api.mapper.ts
 		└── api.repository.ts
 ```
@@ -81,7 +80,7 @@ pods/
 - Each **pod** represents a self-contained functionality or feature of the application, such as a page or a section of a page. Typically, the mapping between a pod and a page is one-to-one, but there are exceptions, such as dashboards that may consume multiple pods, or reusable pods like a login component used in different areas of the app.
 - Inside each pod, we organize our logic into a **container** and a **component**:
   - The **container** is responsible for handling the logic and connecting to the API, managing state, and passing data to the component.
-  - The **component** focuses solely on rendering the UI and should remain as "dumb" as possible, relying on the container for the heavy lifting.
+  - The **component** focuses only on rendering the UI and should remain as "dumb" as possible, relying on the container for the heavy lifting.
 
 ### Structure of a Pod
 
